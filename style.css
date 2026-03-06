@@ -3,10 +3,12 @@ div{
     padding: 10px;
 }
 :root {
-  --bs-danger: rgb(108, 116, 164) !important;
-  --bs-danger-rgb: 108, 116, 164 !important;
-  --bs-danger-bg: rgb(49, 63, 103) !important;
-  --bs-danger-bg-subtle: rgb(49, 63, 103) !important;
+  --bs-primary: rgb(108, 116, 164) !important;
+  --bs-primary-rgb: 108, 116, 164 !important;
+  --bs-primary-bg: rgb(108, 116, 164) !important;
+  --bs-secondary: rgb(49, 63, 103) !important;
+  --bs-secondary-rgb: 49, 63, 103 !important;
+  --bs-secondary-bg: rgb(49, 63, 103) !important;
 }
 /**/
 .my-gradient{
