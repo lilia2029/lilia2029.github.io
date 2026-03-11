@@ -14,3 +14,7 @@ div{
 .my-gradient{
     background: linear-gradient(rgb(255, 250, 198), rgb(241, 201, 227), rgb(231, 114, 163))
 }
+#recipe-blog{
+    border: 5px groove red;
+    
+}
