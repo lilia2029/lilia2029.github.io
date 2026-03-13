@@ -17,3 +17,25 @@ div{
     border: 5px groove red;
     
 }
+ p,a{
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+}
+ h1{
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+  h2,h3{
+  font-family: "Syne Tactile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#hero {
+  margin-top: 0;
+  background: url();
+  padding: 20px;
+}

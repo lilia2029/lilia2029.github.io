@@ -10,10 +10,52 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Custom CSS -->
   <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Ephesis&family=Henny+Penny&family=Just+Me+Again+Down+Here&family=Lavishly+Yours&family=Mansalva&family=Ms+Madi&family=Shadows+Into+Light&family=Sue+Ellen+Francisco&family=Sunshiney&family=Syne+Tactile&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="bg-primary">
-  <div class=" display-1 container-fluid text-secondary text-center my-gradient">
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid bg-warning-subtle border border-danger-subtle border-3">
+    <a class="navbar-brand" href="#">Lili Aytug</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon border border-danger-subtle"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="hero" class=" display-1 container-fluid text-secondary text-center my-gradient">
     <h1>Lili Aytug</h1>
   </div>
 
@@ -21,7 +63,7 @@
     <div class="row text-secondary">
       <div class="col-8">
         <img src="">
-        <p class="text-warning-subtle bg-warning-subtle rounded shadow-lg br-primary border border-danger-subtle border-3">I am a student in highschool learning how to code! This and many other websites I've made will be showcased here. I am also a ballet dancer. I first started dancing at New York Theatre Ballet. Then I was taught at the American Ballet Theatre (ABT) JKO School for eight years. During my time at the ABT school I danced at Lincoln Center twice with my peers! As of right now, I am at Manhattan Youth Ballet (MYB) School. At MYB, I am part of a program where I teach the younger children ballet. </p>
+        <p class="text-warning-subtle bg-warning-subtle rounded shadow-lg br-primary border border-danger-subtle border-3 p-2">I am a student in highschool learning how to code! This and many other websites I've made will be showcased here. I am also a ballet dancer. I first started dancing at New York Theatre Ballet. Then I was taught at the American Ballet Theatre (ABT) JKO School for eight years. During my time at the ABT school I danced at Lincoln Center twice with my peers! As of right now, I am at Manhattan Youth Ballet (MYB) School. At MYB, I am part of a program where I teach the younger children ballet. </p>
       </div>
       <div class="col-4 pt-5">
         <img class="img-fluid" src="winnie pooh and piglet hi.gif">
@@ -55,16 +97,16 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active shadow-lg p-3 mb-5 bg-danger-subtle rounded">
       <a href="https://lilia2029.github.io/CS1-Recipe-Blog/">
       <img src="recipe-blog.png" class="d-block w-100 rounded" alt="...">
       </a>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item shadow-lg p-3 mb-5 bg-danger-subtle rounded">
       <a href="https://lilia2029.github.io/CS1-CSS-Town/">
       <img src="smaller-town.png" class="d-block w-100 h-3 rounded" alt="...">
       </a>
@@ -73,7 +115,7 @@
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item shadow-lg p-3 mb-5 bg-danger-subtle rounded">
       <a href="https://lilia2029.github.io/CS1-Animated-Scene/">
       <img src="animation.png" class="d-block w-100 rounded" alt="..."> </a>
       <div class="carousel-caption d-none d-md-block">
