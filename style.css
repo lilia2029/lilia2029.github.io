@@ -23,7 +23,7 @@ div{
   font-style: normal;
   font-size: 21px;
 }
- h1{
+h1{
   font-family: "Henny Penny", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -33,9 +33,369 @@ div{
   font-weight: 400;
   font-style: normal;
 }
-
+#typewriter{
+  width:100%;
+  font-size: 40px;
+  font-family: "Henny Penny", system-ui;
+  color: rgb(255, 250, 198);
+  opacity: 1;
+}
+.marquee1{
+  color:rgb(49, 63, 103);
+  background-color: rgb(255, 250, 198);
+  font-size: 20px;
+  line-height:30px;
+  transform: rotate(-5deg);
+  position: relative;
+  top: 20px;
+}
+.marquee2{
+  color:rgb(49, 63, 103);
+  background-color:rgb(254, 222, 255);
+  font-size: 20px;
+  line-height: 30px;
+  transform: rotate(5deg);
+  position:relative;
+  top:-20px;
+}
 #hero {
   margin-top: 0;
   background: url();
   padding: 20px;
+}
+.input-wrapper {
+  display: block;
+  font-family: monospace;
+  font-size: 125%;
+  width: 100%;
+}
+.input-wrapper > input,
+.input-wrapper > .placeholder {
+  display: block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+.input-wrapper > .placeholder {
+  pointer-events: none;
+}
+.input-wrapper > .placeholder::before {
+  content: "​";
+  content: "​"/"lili lili lili";
+  alt: "lili lili lili";
+  white-space: break-spaces;
+  will-change: content;
+  -webkit-animation: typed-0 3.68s linear 1s infinite forwards;
+          animation: typed-0 3.68s linear 1s infinite forwards;
+}
+.input-wrapper > .placeholder::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  -webkit-animation: typed-0-caret 0.75s linear 1s infinite forwards;
+          animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@-webkit-keyframes typed-0 {
+  0%, 1.8105942029% {
+    content: "​l";
+    content: "​l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  1.8115942029%, 3.6221884058% {
+    content: "​li";
+    content: "​li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  3.6231884058%, 5.4337826087% {
+    content: "​lil";
+    content: "​lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  5.4347826087%, 7.2453768116% {
+    content: "​lili";
+    content: "​lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  7.2463768116%, 9.0569710145% {
+    content: "​lili ";
+    content: "​lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  9.0579710145%, 10.8685652174% {
+    content: "​lili l";
+    content: "​lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  10.8695652174%, 12.6801594203% {
+    content: "​lili li";
+    content: "​lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  12.6811594203%, 14.4917536232% {
+    content: "​lili lil";
+    content: "​lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  14.4927536232%, 16.3033478261% {
+    content: "​lili lili";
+    content: "​lili lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  16.3043478261%, 18.114942029% {
+    content: "​lili lili ";
+    content: "​lili lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  18.115942029%, 19.9265362319% {
+    content: "​lili lili l";
+    content: "​lili lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  19.9275362319%, 21.7381304348% {
+    content: "​lili lili li";
+    content: "​lili lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  21.7391304348%, 23.5497246377% {
+    content: "​lili lili lil";
+    content: "​lili lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  23.5507246377%, 63.0424782609% {
+    content: "​lili lili lili";
+    content: "​lili lili lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  63.0434782609%, 64.4917536232% {
+    content: "​lili lili lil";
+    content: "​lili lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  64.4927536232%, 65.9410289855% {
+    content: "​lili lili li";
+    content: "​lili lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  65.9420289855%, 67.3903043478% {
+    content: "​lili lili l";
+    content: "​lili lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  67.3913043478%, 68.8395797101% {
+    content: "​lili lili ";
+    content: "​lili lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  68.8405797101%, 70.2888550725% {
+    content: "​lili lili";
+    content: "​lili lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  70.2898550725%, 71.7381304348% {
+    content: "​lili lil";
+    content: "​lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  71.7391304348%, 73.1874057971% {
+    content: "​lili li";
+    content: "​lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  73.1884057971%, 74.6366811594% {
+    content: "​lili l";
+    content: "​lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  74.6376811594%, 76.0859565217% {
+    content: "​lili ";
+    content: "​lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  76.0869565217%, 77.5352318841% {
+    content: "​lili";
+    content: "​lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  77.5362318841%, 78.9845072464% {
+    content: "​lil";
+    content: "​lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  78.9855072464%, 80.4337826087% {
+    content: "​li";
+    content: "​li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  80.4347826087%, 81.883057971% {
+    content: "​l";
+    content: "​l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  81.884057971%, 100% {
+    content: "​";
+    content: "​"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+}
+@keyframes typed-0 {
+  0%, 1.8105942029% {
+    content: "​l";
+    content: "​l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  1.8115942029%, 3.6221884058% {
+    content: "​li";
+    content: "​li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  3.6231884058%, 5.4337826087% {
+    content: "​lil";
+    content: "​lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  5.4347826087%, 7.2453768116% {
+    content: "​lili";
+    content: "​lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  7.2463768116%, 9.0569710145% {
+    content: "​lili ";
+    content: "​lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  9.0579710145%, 10.8685652174% {
+    content: "​lili l";
+    content: "​lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  10.8695652174%, 12.6801594203% {
+    content: "​lili li";
+    content: "​lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  12.6811594203%, 14.4917536232% {
+    content: "​lili lil";
+    content: "​lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  14.4927536232%, 16.3033478261% {
+    content: "​lili lili";
+    content: "​lili lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  16.3043478261%, 18.114942029% {
+    content: "​lili lili ";
+    content: "​lili lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  18.115942029%, 19.9265362319% {
+    content: "​lili lili l";
+    content: "​lili lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  19.9275362319%, 21.7381304348% {
+    content: "​lili lili li";
+    content: "​lili lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  21.7391304348%, 23.5497246377% {
+    content: "​lili lili lil";
+    content: "​lili lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  23.5507246377%, 63.0424782609% {
+    content: "​lili lili lili";
+    content: "​lili lili lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  63.0434782609%, 64.4917536232% {
+    content: "​lili lili lil";
+    content: "​lili lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  64.4927536232%, 65.9410289855% {
+    content: "​lili lili li";
+    content: "​lili lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  65.9420289855%, 67.3903043478% {
+    content: "​lili lili l";
+    content: "​lili lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  67.3913043478%, 68.8395797101% {
+    content: "​lili lili ";
+    content: "​lili lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  68.8405797101%, 70.2888550725% {
+    content: "​lili lili";
+    content: "​lili lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  70.2898550725%, 71.7381304348% {
+    content: "​lili lil";
+    content: "​lili lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  71.7391304348%, 73.1874057971% {
+    content: "​lili li";
+    content: "​lili li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  73.1884057971%, 74.6366811594% {
+    content: "​lili l";
+    content: "​lili l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  74.6376811594%, 76.0859565217% {
+    content: "​lili ";
+    content: "​lili "/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  76.0869565217%, 77.5352318841% {
+    content: "​lili";
+    content: "​lili"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  77.5362318841%, 78.9845072464% {
+    content: "​lil";
+    content: "​lil"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  78.9855072464%, 80.4337826087% {
+    content: "​li";
+    content: "​li"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  80.4347826087%, 81.883057971% {
+    content: "​l";
+    content: "​l"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+  81.884057971%, 100% {
+    content: "​";
+    content: "​"/"lili lili lili";
+    alt: "lili lili lili";
+  }
+}
+@-webkit-keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.input-wrapper > input:focus + .placeholder, .input-wrapper > input:active + .placeholder {
+  display: none;
 }
